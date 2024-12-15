@@ -1,4 +1,50 @@
-*{
+* {
   padding: 0;
   margin: 0;
+}
+header {
+  display: flex;
+  width: 100%;
+}
+header > nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+.company_name {
+  width: (100% / 3);
+  height: 100%;
+}
+.navbar_section {
+  width: (100% / 3);
+  height: 100%;
+}
+.navbar_section > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar_section > ul > li {
+  list-style: none;
+  padding: 15px;
+}
+.navbar_section > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.contact_us_button {
+  display: flex;
+  width: (100% / 3);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contact_us_button > button {
+
+}
+.contact_us_button > button > a {
+
 }
