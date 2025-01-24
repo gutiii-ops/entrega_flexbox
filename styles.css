@@ -363,6 +363,24 @@ footer {
   .second_main_section_article_2 > p {
     padding-left: 180px;
   }
+  .third_main_section {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  .third_main_section_articles > h3 {
+    font-size: 78px;
+  }
+  .third_main_section_articles > p {
+    font-size: 16px;
+  }
+  .final_main_section > figure {
+    width: 65%;
+    height: 100%;
+  }
+  footer {
+    height: 768px;
+  }
 }
 @media (max-width: 768px) and (min-width: 1024px) {
   
