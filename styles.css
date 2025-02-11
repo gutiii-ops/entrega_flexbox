@@ -315,7 +315,7 @@ footer {
   color: black;
 }
 /* <--- Media Queries ---> */
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) {
   header > nav {
     position: sticky;
   }
@@ -382,8 +382,10 @@ footer {
     height: 768px;
   }
 }
-@media (max-width: 768px) and (min-width: 1024px) {
-  
+@media (max-width: 768px) {
+  .landing_page_intro_img > figure > img {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
 
